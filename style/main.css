@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+  font-weight: bolder !important;
+}
+
+body {
+  background: url(/resources/project-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-div {
+  background: rgba(0, 84, 108, 12%);
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+::placeholder {
+  color: aliceblue;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>weather</title>
+  </head>
+  <body class="d-flex justify-content-center align-items-center text-white">
+    <div
+      class="main-div rounded w-50 h-75 d-flex justify-content-around align-items-center flex-column gap-1"
+    >
+      <!-- location div S -->
+      <div class="loc-div text-warning clear"></div>
+      <!-- location div E -->
+
+      <!-- date div S -->
+      <div class="date-div text-warning clear"></div>
+      <!-- date div E -->
+
+      <!-- inp S -->
+      <div class="inp-div">
+        <input
+          placeholder="please enter city name"
+          type="text"
+          class="country-inp clear bg-transparent border-0 border-bottom border-1 border-info border-opacity-25 text-light fw-bold px-2"
+        />
+      </div>
+      <!-- inp E -->
+      <button class="btn btn-outline-info shown-btn">show</button>
+      <!-- state div S -->
+      <div
+        class="clear state d-flex justify-content-around align-items-center"
+      ></div>
+      <!-- state div E -->
+      <div class="degree clear"></div>
+      <p class="text-warning">Additional information</p>
+      <!-- add div S -->
+      <div
+        class="add-div d-flex align-items-center justify-content-around w-100"
+      >
+        <div>
+          <p class="text-warning">wind speed</p>
+          <p class="wind clear" id="wind"></p>
+        </div>
+        <div>
+          <p class="text-warning">humidity</p>
+          <p class="data humidity clear" id="humidity"></p>
+        </div>
+        <div>
+          <p class="text-warning">pressure</p>
+          <p class="data pressure clear" id="pressure"></p>
+        </div>
+      </div>
+      <!-- add div E -->
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
